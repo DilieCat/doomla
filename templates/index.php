@@ -5,9 +5,12 @@
 </head>
 <body>
 	<section>
-		<article>
-			<?php echo getContent(); ?>
-		</article>
+		<nav>
+			<ul><?php echo getMenu(); ?></ul>
+		</nav>
+			<article>
+				<?php echo getContent(); ?>
+			</article>
 	</section>
 </body>
 </html>
